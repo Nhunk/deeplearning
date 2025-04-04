@@ -1,0 +1,11 @@
+# Tạo virtual environment (chạy lệnh trong thư mục project)
+python -m venv venv
+
+# Kích hoạt môi trường ảo:
+venv\Scripts\activate
+
+# Cài đặt module trong môi trường ảo
+pip install package_name
+
+# Lưu danh sách module (để dễ dàng tái tạo môi trường sau này)
+pip freeze > requirements.txt
